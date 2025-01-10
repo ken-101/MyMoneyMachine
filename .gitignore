@@ -1,0 +1,19 @@
+// Firebase configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyCuYSx6nsvS5Gq-h8PZJkHOVk0ivwWM8yc",
+    authDomain: "mymoneymachine-e6885.firebaseapp.com",
+    projectId: "mymoneymachine-e6885",
+    storageBucket: "mymoneymachine-e6885.firebasestorage.app",
+    messagingSenderId: "118881381711",
+    appId: "1:118881381711:web:5b83614155abf8bf29e93a"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+// Get Firebase services
+const db = firebase.firestore();
+
+// Apply Firestore settings with merge option
+db.settings({TimestampsInSnapshots: true, merge: true});
+

@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  background: linear-gradient(to right, #70bbd1, #9acddd, #838383, #b2cbd3);
+}
+body main .data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0 0 0;
+}
+body main .data-container #addUser {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(to right, #a5a9aa, #dd9a9a, #838383, #d3b2b2);
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+body main .data-container #addUser input {
+  all: unset;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d8f6ff;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+body main .data-container #addUser button {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d8f6ff;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+body main .data-container .data-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #a5a9aa, #dd9a9a, #838383, #d3b2b2);
+  width: 80%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  margin: 10px;
+}
+body main .data-container .data-list .tab {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  height: 30px;
+}
+body main .data-container .data-list .tab .title {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+body main .data-container .data-list #userList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+body main .data-container .data-list #userList li {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  width: 100%;
+  margin: 5px 0;
+  background-color: rgba(179, 219, 230, 0.431372549);
+  border-radius: 10px;
+  padding: 15px 0;
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  position: relative;
+}
+body main .data-container .data-list #userList li div {
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: rgba(255, 105, 105, 0.7254901961);
+  display: flex;
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/global.css">
+    <title>MyMoneyMachine - Login</title>
+</head>
+<body>
+    <main>
+        
+        <div class="data-container">
+            <form action="" id="addUser">
+                <input type="text" name="name"  placeholder="Name">
+                <input type="text" name="allMoney" placeholder="Money">
+                <input type="text" name="email"  placeholder="E-Mail">
+                <button>Add User</button>
+            </form>
+            <div class="data-list">
+                <div class="tab contain1">
+                    <h1 class="title">Name</h1>
+                    <h1 class="title">Age</h1>
+                    <h1 class="title">Email</h1>
+                </div>
+                <ul id="userList"></ul>
+            </div>
+        </div>
+    </main>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore-compat.js"></script>
+    
+    <!-- Your JavaScript files -->
+    <script src="js-default/firebase.js"></script>
+    <script src="js-logics/tracker.js"></script>
+</body>
+</html>
